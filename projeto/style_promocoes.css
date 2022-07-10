@@ -1,0 +1,15 @@
+/*Quando coloco o
+    overflow: hidden;
+    o footer fica pela metade e n~]ao consigo quebrar a tela de rolagem lateral*/
+
+.corpo {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 7% 0 7% 0;
+}
+
+.card1, .card2, .card3 {
+    width: 18rem;
+}

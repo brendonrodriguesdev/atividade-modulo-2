@@ -1,0 +1,15 @@
+html, body {
+    overflow-x: hidden;
+    /*Nãoa adiantou muito colocar o overflow*/
+}
+.corpo {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 10% 0 8% 0;
+}
+
+.card1, .card2, .card3 {
+    width: 18rem;
+}

@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: white;
+}
+
+.corpo {
+    background-image: url("imagens/home.webp");
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 56px 545px 56px;
+    grid-template-areas: "header "
+        "main "
+        "footer";
+    overflow-y: hidden !important;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+    min-height:100% ;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.corpo {
+    position: relative;
+}
+
+.centrar {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
